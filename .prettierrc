@@ -8,5 +8,15 @@
     "bracketSpacing": true,
     "jsxBracketSameLine": false,
     "arrowParens": "avoid",
-    "proseWrap": "always"
+    "proseWrap": "always",
+    "ignore": ["node_modules", "dist"],
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "html",
+          "singleQuote": false
+        }
+      }
+    ]
   }
